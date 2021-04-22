@@ -1,0 +1,7 @@
+tensorflow>=2.2
+scikit-learn
+pyhocon
+numpy
+scipy
+h5py
+tqdm
