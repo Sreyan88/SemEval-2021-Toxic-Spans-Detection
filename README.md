@@ -1,5 +1,24 @@
 # Cisco-at-SemEval-2021-Task-5-Toxic-Spans-Detection
-Code for paper titled : Cisco at SemEval-2021 Task 5: What’s Toxic?: Leveraging Transformers for Multiple Toxic Span Extraction from Online Comments
+This repository contains code for our paper titled : Cisco at SemEval-2021 Task 5: What’s Toxic?: Leveraging Transformers for Multiple Toxic Span Extraction from Online Comments
+
+The paper was accepted at SemEval 2021 and is based on the shared task SemEval 2021 Task 5 : Toxic Spans Detection
 
 
-Link - https://drive.google.com/drive/folders/1NtNUmLs9rgdpAkSgxzhPdSQa3yOqjvcS?usp=sharing
+We provide the link to our Sequence Tagging (BERT Model trained on BIO Tagging) - https://drive.google.com/drive/folders/1NtNUmLs9rgdpAkSgxzhPdSQa3yOqjvcS?usp=sharing
+
+For tagging your own text download the model from drive and run:
+
+```python
+from flair.models import SequenceTagger
+
+tagger = SequenceTagger.load('ner')
+
+sentence = Sentence('George Washington went to Washington .')
+
+# predict NER tags
+tagger.predict(sentence)
+
+# print sentence with predicted tags
+print(sentence.to_tagged_string())
+```
+
