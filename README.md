@@ -11,9 +11,9 @@ For tagging your own text download the model from drive and run:
 ```python
 from flair.models import SequenceTagger
 
-tagger = SequenceTagger.load('ner')
+tagger = SequenceTagger.load('/path/to/your/model')
 
-sentence = Sentence('George Washington went to Washington .')
+sentence = Sentence('He is so stupid !')
 
 # predict NER tags
 tagger.predict(sentence)
