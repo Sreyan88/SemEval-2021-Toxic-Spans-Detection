@@ -10,6 +10,7 @@ For tagging your own text download the model from drive and run:
 
 ```python
 from flair.models import SequenceTagger
+from flair.data import Sentence
 
 tagger = SequenceTagger.load('/path/to/your/model')
 
