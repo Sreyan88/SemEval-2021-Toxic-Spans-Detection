@@ -4,7 +4,7 @@ This repository contains code for our paper titled : Cisco at SemEval-2021 Task 
 The paper was accepted at SemEval 2021 and is based on the shared task SemEval 2021 Task 5 : Toxic Spans Detection
 
 
-We provide the link to our Sequence Tagging (BERT Model trained on BIO Tagging) - https://drive.google.com/drive/folders/1NtNUmLs9rgdpAkSgxzhPdSQa3yOqjvcS?usp=sharing
+We provide the [link](https://drive.google.com/drive/folders/1NtNUmLs9rgdpAkSgxzhPdSQa3yOqjvcS?usp=sharing) to one of our Sequence Tagging (BERT Model trained on BIO Tagging).
 
 For tagging your own text download the model from drive and run:
 
