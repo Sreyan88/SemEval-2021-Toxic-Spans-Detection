@@ -1,5 +1,6 @@
 flair==0.7
 tensorflow>=2.2
+pytorch==1.5.0
 scikit-learn
 pyhocon
 numpy
