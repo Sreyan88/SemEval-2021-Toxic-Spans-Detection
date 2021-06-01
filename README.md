@@ -1,5 +1,5 @@
 # Cisco-at-SemEval-2021-Task-5-Toxic-Spans-Detection
-This repository contains code for our paper titled : Cisco at SemEval-2021 Task 5: What’s Toxic?: Leveraging Transformers for Multiple Toxic Span Extraction from Online Comments
+This repository contains code for our paper titled : [Cisco at SemEval-2021 Task 5: What’s Toxic?: Leveraging Transformers for Multiple Toxic Span Extraction from Online Comments](https://arxiv.org/abs/2105.13959)
 
 The paper was accepted at SemEval 2021 and is based on the shared task SemEval 2021 Task 5 : Toxic Spans Detection
 
